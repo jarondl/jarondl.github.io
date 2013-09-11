@@ -1,0 +1,33 @@
+.nobullets {
+  list-style : none;
+  }
+  
+/* TRBL*/
+
+.center-text {
+margin: 2%;
+overflow: auto;
+
+}
+
+h2 {
+text-align: center
+}
+
+.sidenav {
+margin-top: 5%;
+margin-right: 2%;
+padding-right:2%;
+}
+  
+/** Only for large screens, make the menu float on the left */
+@media screen and (min-width: 50em) {
+.sidenav {
+float: left;
+}
+}
+
+section, nav, header, div {
+/* for debugging: */
+/*border: 1px solid #f00;*/
+}
