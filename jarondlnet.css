@@ -31,3 +31,13 @@ section, nav, header, div {
 /* for debugging: */
 /*border: 1px solid #f00;*/
 }
+
+
+.profile {
+display: inline-block;
+background-color: #cee0ed;
+white-space: nowrap;
+text-decoration: none;
+padding: .4em .4em;
+font-size: smaller;
+}
